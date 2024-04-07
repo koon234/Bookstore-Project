@@ -8,6 +8,6 @@ class AuthenticationController extends Controller
 {
     public function registration()
     {
-        return view('bookstore');
+        return view('registration');
     }
 }
