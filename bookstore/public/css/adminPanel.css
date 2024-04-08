@@ -1,0 +1,86 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body layout styles */
+  .body {
+    display: flex;
+  }
+
+  /* Basic styles for the admin panel */
+  .admin-panel {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8c6a5d;
+  }
+
+  /* Header styles */
+  header {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /* Left panel styles */
+  .left-panel {
+    position: relative; /* Make it a positioning context for absolute positioning */
+    width: 15%;
+    height: 100vh; /* Set height of admin panel to fill entire viewport */
+    background-color: #a79277;
+    border-radius: 5px;
+  }
+
+  .left-panel nav ul {
+    list-style-type: none;
+  }
+
+  .nav-box {
+    text-align: center;
+    background-color: #ead8c0;
+    border: 1px solid #6c5e92;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .nav-box li {
+    margin-bottom: 10px;
+  }
+
+  .nav-box a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+
+  /* Right panel styles */
+  .right-panel {
+    width: 85%;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #fff2e1;
+  }
+
+  /* Table styles */
+  table {
+      width: 80%;
+      margin-top: 30px;
+      margin-left: 30px;
+    border-collapse: collapse;
+  }
+
+  table th,
+  table td {
+    border: 1px solid #6c5e92;
+    padding: 8px;
+  }
+
+  table th {
+      color: #fff;
+    background-color: #8c6a5d;
+    text-align: left;
+  }
